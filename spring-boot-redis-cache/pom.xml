@@ -71,7 +71,6 @@
     </dependencies>
 
     <build>
-        <finalName>spring-boot-demo-cache-redis</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
