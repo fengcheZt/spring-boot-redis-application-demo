@@ -29,4 +29,11 @@ public class CountController {
     public String getCount(String key){
         return countService.getCount(key);
     }
+
+    @ApiOperation("短信验证码请求次数限制")
+    @RequestMapping(value = "/sendVerifyCode",method = RequestMethod.GET)
+    @ResponseBody
+    public String sendVerifyCode(String mobile){
+        return countService.sendVerifyCode(mobile);
+    }
 }
