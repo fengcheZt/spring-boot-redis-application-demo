@@ -22,7 +22,7 @@ public class UserController {
     private UserService userService;
 
     @ApiOperation("保存用户信息")
-    @RequestMapping(value = "inserOrUpdate", method = RequestMethod.GET)
+    @RequestMapping(value = "inserOrUpdate", method = RequestMethod.POST)
     @ResponseBody
     public User insertOrUpdate(@RequestBody User user){
         final User user1 = userService.saveOrUpdate(user);
@@ -31,7 +31,7 @@ public class UserController {
     @ApiOperation("获取用户信息")
     @RequestMapping(value = "getUser", method = RequestMethod.GET)
     @ResponseBody
-    public User getUser(@RequestBody Long userId){
+    public User getUser( Long userId){
         final User user1 = userService.get(userId);
         return user1;
     }

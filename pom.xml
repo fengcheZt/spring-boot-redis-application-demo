@@ -11,6 +11,8 @@
         <module>spring-boot-redis-cache</module>
         <module>spring-boot-redis-rank</module>
         <module>spring-boot-redis-count</module>
+        <module>spring-boot-redis-session</module>
+        <module>spring-boot-redis-lock</module>
     </modules>
     <packaging>pom</packaging>
 
