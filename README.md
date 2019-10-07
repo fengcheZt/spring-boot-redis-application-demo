@@ -16,7 +16,7 @@ spring-boot-redis-application-demo
 ├── spring-boot-redis-rank -- 使用redis的sorted set实现排行榜
 └── spring-boot-redis-session -- redis实现分布式会话
 ```
-## 项目README
+## 项目链接
 
 [redis缓存应用](https://github.com/fengcheZt/spring-boot-redis-application-demo/tree/master/spring-boot-redis-cache)  
 [redis计数器](https://github.com/fengcheZt/spring-boot-redis-application-demo/tree/master/spring-boot-redis-count)  
