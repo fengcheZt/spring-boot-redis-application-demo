@@ -13,6 +13,13 @@ spring-boot-redis-application-demo
 ├── spring-boot-redis-cache -- redis缓存应用
 ├── spring-boot-redis-count -- redis计数器
 ├── spring-boot-redis-lock -- redis实现分布式锁
-├── spring-boot-redis-rank -- 使用redis的sorted set实现排序
+├── spring-boot-redis-rank -- 使用redis的sorted set实现排行榜
 └── spring-boot-redis-session -- redis实现分布式会话
 ```
+## 项目README
+
+[redis缓存应用](https://github.com/fengcheZt/spring-boot-redis-application-demo/tree/master/spring-boot-redis-cache)
+[redis计数器](https://github.com/fengcheZt/spring-boot-redis-application-demo/tree/master/spring-boot-redis-count)
+[redis实现分布式锁](https://github.com/fengcheZt/spring-boot-redis-application-demo/tree/master/spring-boot-redis-lock)
+[redis排行榜应用](https://github.com/fengcheZt/spring-boot-redis-application-demo/tree/master/spring-boot-redis-rank)
+[redis实现分布式会话](https://github.com/fengcheZt/spring-boot-redis-application-demo/tree/master/spring-boot-redis-session)
