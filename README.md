@@ -23,3 +23,6 @@ spring-boot-redis-application-demo
 [redis实现分布式锁](https://github.com/fengcheZt/spring-boot-redis-application-demo/tree/master/spring-boot-redis-lock)  
 [redis排行榜应用](https://github.com/fengcheZt/spring-boot-redis-application-demo/tree/master/spring-boot-redis-rank)  
 [redis实现分布式会话](https://github.com/fengcheZt/spring-boot-redis-application-demo/tree/master/spring-boot-redis-session)
+
+## 最后
+欢迎志同道合的同学增加redis实用的应用案例
